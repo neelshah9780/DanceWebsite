@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 40px;
+    font-size: 20px;
+}
+#logo img{
+    height: 35px;
+    filter: invert(1);
+
+}
+#navbar{
+    font-family: lacquer; 
+    background-color: #ff0000;
+    padding: 13px 4px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: beige;
+    text-decoration: none;
+    padding: 3px 25px;
+}
+#navbar li a:hover{
+    background-color: rgb(4, 196, 255);
+    color: rgb(3, 3, 0);
+}
+
+#introSection{
+    font-family: lacquer; 
+    font-size: 35px;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: center/ cover no-repeat url(/static/img/bg.jpg);
+}
+#introSection div.small{
+    padding: 26px;
+  font-size: 30px;
+}
+#missionSection{
+    background-color: coral;
+   height: 350px;
+}
+#missionSection h2{
+    display: block;
+    font-size: 34px;
+    padding-top: 10px;
+    color: #0d630193;
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    border-radius: 20px;
+    border: 3px solid black;
+    width: 30%;
+    height: 54%;
+    margin: 30px 20px;
+    background-color: cyan;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
+    font-style: oblique;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+     height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content{
+ padding: 0 43px;
+}
+.card-content p{
+font-size: 18px;
+}
+#sponsersSection{
+   height: 300px;
+   background-color: #ff000093;
+}
+#sponsersSection h2{
+    font-size: 23px;
+    padding-top: 10px;
+    color: #0d630193;
+    text-align: center;
+}
+#sponsers{
+    align-items: center;
+    margin: 0 auto;
+    padding: 2px 9px;
+    border: 4px solid blue;
+    width: 993px;
+    padding-top: 5px;
+}
+.spImage{
+    height: 160px;
+    width: 130px;
+    margin: 31px;
+
+}
+.spoImage{
+    height: 188px;
+    width: 156px;
+    margin: 7px;
+}
+.sponImage{
+    height: 174px;
+    width: 238px;
+    margin: 18px 0;
+}
+.sponsImage{
+    height: 177px;
+    width: 249px;
+    margin: 15px;
+}
+#footer{
+    height: 42px;
+    font-size: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: cursive;
+}
